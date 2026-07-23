@@ -1,0 +1,128 @@
+.customer-table-container{
+
+    width:100%;
+
+    background:#ffffff;
+
+    border-radius:12px;
+
+    overflow:hidden;
+
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+
+}
+
+.customer-table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+.customer-table thead{
+
+    background:#2563eb;
+
+    color:white;
+
+}
+
+.customer-table th{
+
+    padding:15px;
+
+    text-align:left;
+
+}
+
+.customer-table td{
+
+    padding:15px;
+
+    border-bottom:1px solid #e5e7eb;
+
+}
+
+.customer-table tbody tr:hover{
+
+    background:#f8fafc;
+
+}
+
+.status{
+
+    padding:6px 12px;
+
+    border-radius:20px;
+
+    font-size:13px;
+
+    font-weight:600;
+
+}
+
+.active{
+
+    background:#dcfce7;
+
+    color:#15803d;
+
+}
+
+.inactive{
+
+    background:#fee2e2;
+
+    color:#dc2626;
+
+}
+
+.view-btn,
+.edit-btn,
+.delete-btn{
+
+    border:none;
+
+    padding:8px 14px;
+
+    border-radius:6px;
+
+    color:white;
+
+    cursor:pointer;
+
+    margin-right:8px;
+
+}
+
+.view-btn{
+
+    background:#2563eb;
+
+}
+
+.edit-btn{
+
+    background:#f59e0b;
+
+}
+
+.delete-btn{
+
+    background:#ef4444;
+
+}
+.action-buttons{
+
+    display:flex;
+
+    gap:8px;
+
+    justify-content:center;
+
+    align-items:center;
+
+    flex-wrap:wrap;
+
+}

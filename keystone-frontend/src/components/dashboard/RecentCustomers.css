@@ -1,0 +1,179 @@
+/* =========================================
+   RECENT CUSTOMERS
+========================================= */
+
+.recent-customers {
+
+    background: #ffffff;
+
+    padding: 25px;
+
+    border-radius: 14px;
+
+    border: 1px solid #e5e7eb;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,.08);
+
+    transition: all .3s ease;
+}
+
+.recent-customers:hover {
+
+    transform: translateY(-4px);
+
+    box-shadow: 0 12px 28px rgba(0,0,0,.12);
+}
+
+.recent-customers h2 {
+
+    margin-bottom: 22px;
+
+    color: #1f2937;
+
+    font-size: 22px;
+
+    font-weight: 700;
+
+    padding-bottom: 12px;
+
+    border-bottom: 1px solid #e5e7eb;
+}
+
+/* =========================================
+   CUSTOMER CARD
+========================================= */
+
+.customer-card {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 16px;
+
+    margin-bottom: 12px;
+
+    background: #f9fafb;
+
+    border-radius: 10px;
+
+    transition: all .3s ease;
+
+    cursor: pointer;
+}
+
+.customer-card:last-child {
+
+    margin-bottom: 0;
+}
+
+.customer-card:hover {
+
+    background: #ffffff;
+
+    transform: translateX(6px);
+
+    box-shadow: 0 6px 16px rgba(0,0,0,.08);
+}
+
+/* =========================================
+   CUSTOMER DETAILS
+========================================= */
+
+.customer-card h4 {
+
+    margin: 0 0 6px;
+
+    color: #1f2937;
+
+    font-size: 16px;
+
+    font-weight: 600;
+}
+
+.customer-card p {
+
+    margin: 0;
+
+    color: #6b7280;
+
+    font-size: 14px;
+}
+
+/* =========================================
+   CUSTOMER STATUS
+========================================= */
+
+.customer-card span {
+
+    display: inline-block;
+
+    padding: 6px 14px;
+
+    background: #d1fae5;
+
+    color: #047857;
+
+    border-radius: 20px;
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+    white-space: nowrap;
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width:768px){
+
+    .recent-customers{
+
+        padding:20px;
+    }
+
+    .customer-card{
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 12px;
+    }
+
+    .customer-card span{
+
+        width: 100%;
+
+        text-align: center;
+    }
+
+}
+
+@media (max-width:480px){
+
+    .recent-customers{
+
+        padding:16px;
+    }
+
+    .recent-customers h2{
+
+        font-size:20px;
+    }
+
+    .customer-card h4{
+
+        font-size:15px;
+    }
+
+    .customer-card p{
+
+        font-size:13px;
+    }
+
+}

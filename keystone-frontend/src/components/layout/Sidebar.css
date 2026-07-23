@@ -1,0 +1,383 @@
+/* ========================================
+   MENU TOGGLE BUTTON
+======================================== */
+
+.menu-toggle {
+    position: fixed;
+    top: 18px;
+    left: 20px;
+
+    width: 54px;
+    height: 54px;
+
+    border: none;
+    border-radius: 14px;
+
+    background: #2563eb;
+    color: #fff;
+
+    font-size: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+    box-shadow: 0 10px 25px rgba(37,99,235,.35);
+
+    transition: .3s;
+
+    z-index: 1200;
+}
+
+.menu-toggle:hover{
+    background:#1d4ed8;
+    transform:translateY(-2px);
+}
+
+
+/* ========================================
+   OVERLAY
+======================================== */
+
+.sidebar-overlay{
+
+    position:fixed;
+
+    inset:0;
+
+    background:rgba(15,23,42,.45);
+
+    backdrop-filter:blur(2px);
+
+    z-index:999;
+}
+
+
+/* ========================================
+   SIDEBAR
+======================================== */
+
+.sidebar{
+
+    position:fixed;
+
+    top:0;
+
+    left:-310px;
+
+    width:310px;
+
+    height:100vh;
+
+    background:linear-gradient(
+        180deg,
+        #0f172a,
+        #111827,
+        #1e293b
+    );
+
+    color:white;
+
+    display:flex;
+
+    flex-direction:column;
+
+    transition:left .35s ease;
+
+    box-shadow:8px 0 35px rgba(0,0,0,.25);
+
+    z-index:1100;
+}
+
+.sidebar.open{
+
+    left:0;
+}
+
+
+/* ========================================
+   LOGO
+======================================== */
+
+.sidebar-logo{
+
+    padding:80px 28px 30px;
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+}
+
+.sidebar-logo h2{
+
+    margin:0;
+
+    font-size:34px;
+
+    font-weight:800;
+
+    letter-spacing:2px;
+
+    color:#fff;
+}
+
+.sidebar-logo p{
+
+    margin-top:10px;
+
+    color:#94a3b8;
+
+    font-size:15px;
+
+    letter-spacing:.5px;
+}
+
+
+/* ========================================
+   MENU
+======================================== */
+
+.sidebar-menu{
+
+    flex:1;
+
+    padding:25px 14px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:8px;
+
+    overflow-y:auto;
+}
+
+
+/* ========================================
+   MENU ITEM
+======================================== */
+
+.menu-item{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+    height:56px;
+
+    padding:0 20px;
+
+    border-radius:14px;
+
+    color:#cbd5e1;
+
+    text-decoration:none;
+
+    font-size:16px;
+
+    font-weight:500;
+
+    transition:.3s;
+}
+
+.menu-item svg{
+
+    font-size:20px;
+
+    min-width:22px;
+}
+
+.menu-item:hover{
+
+    background:#1e40af;
+
+    color:white;
+
+    transform:translateX(6px);
+}
+
+.menu-item.active{
+
+    background:linear-gradient(
+        135deg,
+        #2563eb,
+        #3b82f6
+    );
+
+    color:white;
+
+    box-shadow:0 12px 25px rgba(37,99,235,.35);
+}
+
+
+/* ========================================
+   FOOTER
+======================================== */
+
+.sidebar-footer{
+
+    padding:22px;
+
+    border-top:1px solid rgba(255,255,255,.08);
+}
+
+
+/* ========================================
+   LOGOUT
+======================================== */
+
+.logout-btn{
+
+    width:100%;
+
+    height:56px;
+
+    border:none;
+
+    border-radius:14px;
+
+    background:#ef4444;
+
+    color:white;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:12px;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.logout-btn:hover{
+
+    background:#dc2626;
+
+    transform:translateY(-2px);
+}
+
+
+/* ========================================
+   SCROLLBAR
+======================================== */
+
+.sidebar-menu::-webkit-scrollbar{
+
+    width:6px;
+}
+
+.sidebar-menu::-webkit-scrollbar-thumb{
+
+    background:#334155;
+
+    border-radius:10px;
+}
+
+
+/* ========================================
+   TABLET
+======================================== */
+
+@media(max-width:992px){
+
+.sidebar{
+
+    width:290px;
+
+    left:-290px;
+}
+
+.sidebar.open{
+
+    left:0;
+}
+
+}
+
+
+/* ========================================
+   MOBILE
+======================================== */
+
+@media(max-width:768px){
+
+.sidebar{
+
+    width:260px;
+
+    left:-260px;
+}
+
+.sidebar-logo{
+
+    padding:75px 20px 25px;
+}
+
+.sidebar-logo h2{
+
+    font-size:28px;
+}
+
+.menu-item{
+
+    height:52px;
+
+    font-size:15px;
+}
+
+.logout-btn{
+
+    height:52px;
+}
+
+.menu-toggle{
+
+    width:48px;
+
+    height:48px;
+
+    font-size:22px;
+}
+
+}
+
+
+/* ========================================
+   LARGE SCREENS
+======================================== */
+
+@media(min-width:1600px){
+
+.sidebar{
+
+    width:340px;
+
+    left:-340px;
+}
+
+.sidebar.open{
+
+    left:0;
+}
+
+.sidebar-logo h2{
+
+    font-size:38px;
+}
+
+.menu-item{
+
+    font-size:17px;
+}
+
+}

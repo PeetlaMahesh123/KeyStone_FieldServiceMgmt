@@ -1,0 +1,57 @@
+.site-details{
+
+    width:100%;
+
+}
+
+.site-details h1{
+
+    margin-bottom:25px;
+
+    color:#1e293b;
+
+}
+
+.details-card{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:12px;
+
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+
+}
+
+.detail-row{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    padding:15px 0;
+
+    border-bottom:1px solid #e5e7eb;
+
+}
+
+.detail-row:last-child{
+
+    border-bottom:none;
+
+}
+
+.detail-row label{
+
+    font-weight:600;
+
+}
+
+.active-status{
+
+    color:#16a34a;
+
+    font-weight:bold;
+
+}

@@ -1,0 +1,63 @@
+.inventory-list{
+
+    width:100%;
+
+}
+
+.inventory-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:25px;
+
+}
+
+.inventory-header h1{
+
+    color:#1e293b;
+
+}
+
+.inventory-header p{
+
+    color:#64748b;
+
+}
+
+.add-btn{
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 22px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}
+
+.inventory-search{
+
+    margin-bottom:20px;
+
+}
+
+.inventory-search input{
+
+    width:350px;
+
+    padding:12px;
+
+    border-radius:8px;
+
+    border:1px solid #cbd5e1;
+
+}

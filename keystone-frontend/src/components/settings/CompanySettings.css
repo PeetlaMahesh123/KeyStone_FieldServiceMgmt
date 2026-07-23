@@ -1,0 +1,57 @@
+.settings-card{
+
+    background:#ffffff;
+
+    border-radius:12px;
+
+    padding:20px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.settings-card h2{
+
+    margin-bottom:20px;
+
+    color:#1e293b;
+
+}
+
+.settings-form{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:16px;
+
+}
+
+.logo-upload{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:8px;
+
+}
+
+.logo-upload label{
+
+    font-weight:600;
+
+    color:#334155;
+
+}
+
+.logo-upload input{
+
+    padding:10px;
+
+    border:1px solid #cbd5e1;
+
+    border-radius:8px;
+
+}

@@ -1,0 +1,71 @@
+.site-list{
+
+    width:100%;
+
+}
+
+.site-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:25px;
+
+}
+
+.site-header h1{
+
+    color:#1e293b;
+
+}
+
+.site-header p{
+
+    color:#64748b;
+
+}
+
+.add-btn{
+
+    padding:12px 22px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:#2563eb;
+
+    color:white;
+
+    cursor:pointer;
+
+}
+
+.site-search{
+
+    margin-bottom:20px;
+
+}
+
+.site-search input{
+
+    width:350px;
+
+    padding:12px;
+
+    border:1px solid #cbd5e1;
+
+    border-radius:8px;
+
+    outline:none;
+
+}
+
+.site-search input:focus{
+
+    border-color:#2563eb;
+
+}

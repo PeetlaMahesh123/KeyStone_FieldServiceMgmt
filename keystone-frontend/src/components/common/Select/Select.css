@@ -1,0 +1,67 @@
+.select-group {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 8px;
+
+    margin-bottom: 20px;
+
+    width: 100%;
+
+}
+
+.select-group label {
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    color: #334155;
+
+}
+
+.select-group select {
+
+    width: 100%;
+
+    padding: 12px 14px;
+
+    border: 1px solid #cbd5e1;
+
+    border-radius: 8px;
+
+    background: #ffffff;
+
+    font-size: 15px;
+
+    color: #1e293b;
+
+    outline: none;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+
+}
+
+.select-group select:focus {
+
+    border-color: #2563eb;
+
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+
+}
+
+.select-group select:hover {
+
+    border-color: #2563eb;
+
+}
+
+.select-group option {
+
+    color: #1e293b;
+
+}

@@ -1,0 +1,45 @@
+/* ---------- LIGHT THEME ---------- */
+
+body.light-theme{
+
+    --btn-primary:#2563eb;
+    --btn-primary-hover:#1d4ed8;
+
+    --btn-secondary:#64748b;
+    --btn-secondary-hover:#475569;
+
+    --btn-danger:#dc2626;
+    --btn-danger-hover:#b91c1c;
+
+    --btn-success:#22c55e;
+    --btn-success-hover:#16a34a;
+
+    --btn-warning:#f59e0b;
+    --btn-warning-hover:#d97706;
+
+    --btn-text:#ffffff;
+
+}
+
+/* ---------- DARK THEME ---------- */
+
+body.dark-theme{
+
+    --btn-primary:#3b82f6;
+    --btn-primary-hover:#2563eb;
+
+    --btn-secondary:#94a3b8;
+    --btn-secondary-hover:#64748b;
+
+    --btn-danger:#ef4444;
+    --btn-danger-hover:#dc2626;
+
+    --btn-success:#22c55e;
+    --btn-success-hover:#16a34a;
+
+    --btn-warning:#fbbf24;
+    --btn-warning-hover:#f59e0b;
+
+    --btn-text:#ffffff;
+
+}

@@ -1,0 +1,27 @@
+.status-chart{
+
+    background:#ffffff;
+
+    border-radius:12px;
+
+    padding:25px;
+
+    margin-top:25px;
+
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+
+}
+
+.chart-header{
+
+    margin-bottom:25px;
+
+}
+
+.chart-header h3{
+
+    color:#1e293b;
+
+    font-size:22px;
+
+}

@@ -1,0 +1,63 @@
+.settings-card{
+
+    background:#ffffff;
+
+    border-radius:12px;
+
+    padding:20px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.settings-card h2{
+
+    margin-bottom:20px;
+
+    color:#1e293b;
+
+}
+
+.notification-list{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+    margin-bottom:20px;
+
+}
+
+.switch-row{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:12px 0;
+
+    border-bottom:1px solid #e5e7eb;
+
+}
+
+.switch-row span{
+
+    font-weight:500;
+
+    color:#334155;
+
+}
+
+.switch-row input{
+
+    width:20px;
+
+    height:20px;
+
+    cursor:pointer;
+
+}

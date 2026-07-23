@@ -1,0 +1,73 @@
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+.unauthorized-container{
+
+    width:100%;
+
+    height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:#f5f7fa;
+
+}
+
+.unauthorized-card{
+
+    width:450px;
+
+    text-align:center;
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:12px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+
+}
+
+.unauthorized-card h1{
+
+    font-size:70px;
+
+    color:red;
+
+}
+
+.unauthorized-card h2{
+
+    margin:15px 0;
+
+}
+
+.unauthorized-card p{
+
+    margin-bottom:20px;
+
+    color:#666;
+
+}
+
+.unauthorized-card a{
+
+    text-decoration:none;
+
+    color:#2563eb;
+
+    font-weight:bold;
+
+}

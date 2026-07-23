@@ -1,0 +1,77 @@
+.customer-list{
+
+    width:100%;
+
+}
+
+.customer-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:25px;
+
+}
+
+.customer-header h1{
+
+    color:#1e293b;
+
+}
+
+.customer-header p{
+
+    color:#64748b;
+
+}
+
+.add-btn{
+
+    padding:12px 22px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:#2563eb;
+
+    color:white;
+
+    cursor:pointer;
+
+}
+
+.add-btn:hover{
+
+    background:#1d4ed8;
+
+}
+
+.customer-search{
+
+    margin-bottom:20px;
+
+}
+
+.customer-search input{
+
+    width:350px;
+
+    padding:12px;
+
+    border:1px solid #cbd5e1;
+
+    border-radius:8px;
+
+    outline:none;
+
+}
+
+.customer-search input:focus{
+
+    border-color:#2563eb;
+
+}

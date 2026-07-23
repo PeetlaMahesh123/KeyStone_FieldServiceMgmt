@@ -1,0 +1,28 @@
+.report-box{
+
+    background:#ffffff;
+
+    padding:20px;
+
+    border-radius:12px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.report-box table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+.report-box th,
+.report-box td{
+
+    padding:12px;
+
+    border-bottom:1px solid #e5e7eb;
+
+}
